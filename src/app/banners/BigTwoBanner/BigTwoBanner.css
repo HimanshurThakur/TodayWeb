@@ -1,0 +1,25 @@
+.conatiner_Banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    overflow: hidden;
+    height: 11rem;
+    background: rgb(255, 255, 255);
+    padding-bottom: 3.5rem;
+    /* padding-top:2rem; */
+}
+
+.First_Half{
+    flex: 1;
+   
+}
+.Second_Half{
+    flex: 1;
+   
+}
+.banner_ImgHalf{
+    width: 50vw;
+    height: 7rem;
+    object-fit: cover;
+}

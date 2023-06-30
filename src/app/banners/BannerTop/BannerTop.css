@@ -1,0 +1,42 @@
+.maincontainerBanner{
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  gap: 0.3rem;
+  margin-top:-1rem;
+  /* background-color: aliceblue; */
+  padding: 1rem;
+  
+  
+}
+
+.LeftBanner{
+  flex: 4;
+  height: 18vh;
+  background-color: aqua;
+  overflow: hidden;
+  height:7rem;
+  
+}
+
+.CenterBanner{
+  flex: 12 5;
+  height: 18vh;
+  background-color: aquamarine;
+  overflow: hidden;
+  height:7rem;
+}
+
+.RightBanner{
+  flex: 4 1;
+  height: 18vh;
+  background-color: blueviolet;
+  overflow: hidden;
+  height:7rem;
+}
+
+.BannerImg{
+  overflow: hidden;
+  object-fit: cover;
+  
+}

@@ -1,0 +1,182 @@
+@media (max-width:700px) {
+    .SecondNav {
+        opacity: 0;
+    }
+
+    .MainNav {
+        height: 3.5rem;
+    }
+}
+
+
+.ArrowDropDownIcon-color {
+    color: black;
+}
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: 100%;
+    }
+
+    .searchBox-size {
+        width: 50rem;
+    }
+
+    .image-width {
+        width: 35px;
+
+    }
+
+    .css-hyum1k-MuiToolbar-root {
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+}
+
+
+
+/* Done (large desktops, 1200px and up) */
+@media (max-width: 1300px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: 100%;
+    }
+
+    .searchBox-size {
+        width: 52.5rem;
+
+    }
+
+    .image-width {
+        width: 50px;
+
+    }
+
+    .btn-play-design {
+        width: 130px;
+    }
+
+    .SecondNav Button {
+        margin-left: 2rem;
+
+    }
+}
+
+
+@media (min-width: 1300px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: 100%;
+    }
+
+    .searchBox-size {
+        width: 68rem;
+
+    }
+
+    .image-width {
+        width: 60px;
+
+    }
+
+    .btn-play-design {
+        width: 130px;
+    }
+
+    .SecondNav Button {
+        margin-left: 4.5rem;
+
+    }
+}
+
+
+
+/* Done */
+@media (max-width: 912px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: 100%;
+    }
+
+    .searchBox-size {
+        width: 14rem;
+
+    }
+
+    .image-width {
+        width: 45px;
+    }
+
+    .btn-play-design {
+        width: 65px;
+        margin-top: 22px;
+    }
+
+    .SecondNav Button {
+        margin-left: 5px;
+    }
+}
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+    .css-1oqqzyl-MuiContainer-root {
+        max-width: 100%;
+    }
+
+    .image-width {
+        width: 45px;
+    }
+
+}
+
+
+
+
+/* Praktish */
+
+
+@media screen and (min-width: 820px) and (max-width: 1180px) {
+    .searchBox-size {
+        width: 28rem;
+    }
+
+}
+
+
+@media screen and (min-width: 414px) and (max-width: 482px) {
+    .searchBox-size {
+        width: 16rem;
+    }
+
+    .image-width {
+        width: 40px;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .searchBox-size {
+        width: 26rem;
+    }
+
+    .image-width {
+        width: 40px;
+    }
+
+}
+
+
+
+
+
+
+
+.geecom-logo-style {
+    display: 'flex';
+    align-items: 'center';
+    max-width: '100%';
+}

@@ -1,0 +1,14 @@
+.animatedP {
+    animation: para 1s linear infinite alternate-reverse;
+}
+
+@keyframes para {
+    0% {
+        color: rgb(3, 239, 248);
+    }
+
+    100% {
+        color: rgb(29, 192, 29);
+    }
+
+}

@@ -1,0 +1,50 @@
+
+.container7{
+    width: 100%;
+    height: 9.5rem; /* Adjust the height as needed */
+    position: relative;
+    overflow: hidden;
+    margin-top:20px;
+    background-color:green;
+    display:flex;
+    gap:0.5rem;
+}
+.banner7 {
+    width: calc(100% * var(--image-count));
+    height: 9rem;
+    display: flex;
+    transition: transform 0.5s ease;
+    gap:0.5rem;
+  }
+  
+.hexagon {
+    width: 11rem;
+    height: 9rem;
+    background-size: cover;
+    margin-top:4px;
+    clip-path: polygon(50% 0%, 85% 25%, 85% 75%, 50% 100%, 15% 75%, 15% 25%);
+  }
+  
+  
+  .left-arrow,
+  .right-arrow {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 70%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  
+  .left-arrow {
+    left: 10px;
+  }
+  
+  .right-arrow {
+    right: 10px;
+  }
+  

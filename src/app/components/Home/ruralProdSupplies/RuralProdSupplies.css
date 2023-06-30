@@ -1,0 +1,15 @@
+/* h1{
+	background-color: aliceblue;
+	color: black;
+	padding: 2rem;
+} */
+.container {
+	background-color:#fff;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap:1rem;
+}

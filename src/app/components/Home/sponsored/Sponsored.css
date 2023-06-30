@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    font-weight:bold;
+    font-size:20px;
+}
+
+.Banners{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* background-color: aliceblue; */
+    gap: 1rem;
+    margin-top:3rem;
+}
+.banner{
+   border-radius: 8px;
+   overflow: hidden;
+
+}
+
+.bannerImg{
+    height: 14rem;
+    width: 24rem;
+    object-fit: cover;
+}
